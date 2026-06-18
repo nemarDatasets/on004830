@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004830",
-  "source": "openneuro",
-  "source_id": "ds004830",
+  "pipeline_stage": "validated",
   "title": "Spatial Attention Decoding using fNIRS During Complex Scene Analysis",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Matthew Ning": {},
     "Sudan Duwadi": {},
@@ -12,21 +12,66 @@
     "David A. Boas": {},
     "Kamal Sen": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004830.v2.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.3389/fnhum.2024.1329086",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004830",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004830",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.1",
-  "recording_modality": [
+  "modalities": [
     "nirs"
   ],
-  "datatypes": [
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "2.4 GB (89 files)"
+  ],
+  "formats": [
+    ".docx",
+    ".json",
+    ".mat",
+    ".md",
+    ".nirs",
+    ".snirf",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "description": "This fNIRS neuroimaging dataset captures hemodynamic responses during complex scene analysis tasks, enabling investigation of spatial attention decoding mechanisms. The dataset comprises functional near-infrared spectroscopy recordings from multiple participants performing visual attention tasks on complex scenes, with potential applications in understanding attentional control and visual processing in naturalistic viewing conditions.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "spatial attention"
+    },
+    {
+      "term": "scene analysis"
+    },
+    {
+      "term": "hemodynamic response"
+    },
+    {
+      "term": "visual processing"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "87744139bd8322dd4ea2a55de4e0bf984f98bb88d3bb2b508406b55b93a72663"
 }
