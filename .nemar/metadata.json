@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004830",
+  "source": "openneuro",
+  "source_id": "ds004830",
+  "title": "Spatial Attention Decoding using fNIRS During Complex Scene Analysis",
+  "authors": {
+    "Matthew Ning": {},
+    "Sudan Duwadi": {},
+    "Meryem A. Yucel": {},
+    "Alexander Von Luhmann": {},
+    "David A. Boas": {},
+    "Kamal Sen": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004830.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.1",
+  "recording_modality": [
+    "nirs"
+  ],
+  "datatypes": [
+    "nirs"
+  ]
+}
