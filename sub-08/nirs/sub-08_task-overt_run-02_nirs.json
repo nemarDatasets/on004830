@@ -3,5 +3,10 @@
   "SamplingFrequency": 50,
   "NIRSChannelCount": 84,
   "NIRSSourceOptodeCount": 14,
-  "NIRSDetectorOptodeCount": 29
+  "NIRSDetectorOptodeCount": 29,
+  "Manufacturer": "TechEn",
+  "ManufacturersModelName": "CW6",
+  "CapManufacturer": "EasyCap",
+  "RecordingDuration": 1800.02,
+  "RecordingType": "continuous"
 }

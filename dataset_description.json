@@ -1,6 +1,6 @@
 {
   "Name": "Spatial Attention Decoding using fNIRS During Complex Scene Analysis",
-  "BIDSVersion": "1.7.1",
+  "BIDSVersion": "1.8.0",
   "Authors": [
     "Matthew Ning",
     "Sudan Duwadi",
@@ -20,5 +20,15 @@
       "DOI": "doi:10.18112/openneuro.ds004830.v2.0.0"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "2.0.1",
+  "DatasetType": "raw",
+  "EthicsApprovals": [
+    "The studies involving humans were approved by the Boston Medical Center and Boston University Medical Campus Institutional Review Board."
+  ],
+  "Funding": [
+    "National Institutes of Health (5T32DC013017-03)",
+    "College of Engineering, Boston University (Dean’s Catalyst Award)",
+    "American Hearing Research Foundation",
+    "NSF (award #2319321)"
+  ]
 }
